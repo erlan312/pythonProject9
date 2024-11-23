@@ -22,10 +22,10 @@ def binary_search(target, arr):
     print("Элемент не найден")
     return -1
 
-numbers = [5, 2, 9, 1, 7, 6]
+numbers = [5, 2, 8, 1, 7, 9, 3, 4, 10]
 print("Изначальный список:", numbers)
 
 sorted_numbers = bubble_sort(numbers)
 print("Отсортированный список:", sorted_numbers)
 
-binary_search(7, sorted_numbers)
+binary_search(5, sorted_numbers)
